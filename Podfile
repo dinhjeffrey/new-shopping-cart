@@ -1,5 +1,11 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
+target 'test-shoppingCart' do
+
+  use_frameworks!
+	
   pod 'Alamofire'
-  pod 'SnapKit', '~> 0.15.0'
+  pod 'SnapKit', '~> 0.21.0'
+
+
+end

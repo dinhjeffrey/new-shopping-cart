@@ -1,0 +1,6 @@
+framework module Pods_test_shoppingCart {
+  umbrella header "Pods-test-shoppingCart-umbrella.h"
+
+  export *
+  module * { export * }
+}
